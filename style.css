@@ -1,0 +1,51 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid ligthgrey;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-wrapper >h4 {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+input {
+    padding: 5px;
+    height: 12px;
+    margin: 0px 10px;
+    width: 100px;
+}
+
+select {
+    padding: 4px;
+}
+
+#copyright {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/* #firstCurrencyOption secondCurrencyOption {
+    height: 55px;
+} */
